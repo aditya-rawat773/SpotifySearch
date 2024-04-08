@@ -17,5 +17,8 @@ Hilt, a powerful dependency injection library for Android, is employed for depen
 ## Offline Support
 The app leverages Room Database for offline functionality, enabling the storage of the last searched result locally. Users can retrieve and access this data even when offline, ensuring a seamless user experience.
 
+## ViewModel Testing
+ViewModel testing is an integral part of ensuring the robustness and reliability of the application. In this project, ViewModel tests are implemented to verify the behavior and interactions of ViewModel components. These tests validate the correctness of ViewModel logic, state management and interaction with other components such as repositories.
+
 ## APK
 A working APK of the project can be downloaded from [here](https://drive.google.com/file/d/1eh-YyjAf79tTUunrA9YoJMHBcaPJFXIr/view?usp=share_link).
