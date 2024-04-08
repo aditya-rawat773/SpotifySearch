@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchListFragment">
+
+    <fragment
+        android:id="@+id/searchListFragment"
+        android:name="com.example.spotifysearch.presentation.fragments.SearchListFragment"
+        android:label="fragment_search_list"
+        tools:layout="@layout/fragment_search_list" >
+        <action
+            android:id="@+id/action_searchListFragment_to_serachItemDetailFragment"
+            app:destination="@id/serachItemDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/serachItemDetailFragment"
+        android:name="com.example.spotifysearch.presentation.fragments.SearchItemDetailFragment"
+        android:label="fragment_search_item_detail"
+        tools:layout="@layout/fragment_search_item_detail"
+        >
+    </fragment>
+</navigation>
