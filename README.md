@@ -12,7 +12,7 @@ The project follows the MVVM (Model-View-ViewModel) architecture pattern, incorp
 - Hilt is used for dependency injection, ensuring efficient and scalable management of dependencies. Coroutines are for asynchronous programming, enhancing responsiveness and performance by facilitating asynchronous calls.
 
 ## Dependency Injection
-Hilt, a powerful dependency injection library for Android, is employed for dependency injection in this project. It simplifies the setup and management of dependencies, promoting modularity and testability within the application.
+Hilt simplifies the setup and management of dependencies, promoting modularity and testability within the application.
 
 ## Offline Support
 The app leverages Room Database for offline functionality, enabling the storage of the last searched result locally. Users can retrieve and access this data even when offline, ensuring a seamless user experience.
